@@ -1,3 +1,3 @@
 # RockPaperScissors
 
-For now, this will be a rock, paper, scissors game played entirely on the console
+This is a rock paper scissors game. Scores are also displayed on the console for easier visibility. 

@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.title, .scores, .text-bottom, .text-top{
+    font-size: 32px;
+    text-align: center;
+    padding: 16px;
+}
+
+.title {
+    border-bottom: 3px solid black;
+}
+
+.text-bottom {
+    border-top: 3px solid black;
+}
+
+.scores {
+    padding: 24px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.scissors, .rock ,.paper {
+    font-size: 24px;
+    padding: 8px;
+}
+ 
+
+
+
+/* * {
+    border: 2px solid red;
+} */
