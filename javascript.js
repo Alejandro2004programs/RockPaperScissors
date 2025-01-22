@@ -47,7 +47,7 @@ function playRound(humanChoice) {
         humanScore = 0;
         computerScore = 0;
         humanScoreBoard.textContent = `Your score: ${humanScore}`;
-        humanScoreBoard.textContent = `Your score: ${humanScore}`;
+        computerScoreBoard.textContent = `Computer score: ${computerScore}`;
         gameProgressText.textContent = "Game over. You beat the computer this round";
 
     }
@@ -55,7 +55,7 @@ function playRound(humanChoice) {
         humanScore = 0;
         computerScore = 0;
         humanScoreBoard.textContent = `Your score: ${humanScore}`;
-        humanScoreBoard.textContent = `Your score: ${humanScore}`;
+        computerScoreBoard.textContent = `Computer score: ${computerScore}`;
         gameProgressText.textContent = "Game over. You lost to the computer this round";
 
     }
